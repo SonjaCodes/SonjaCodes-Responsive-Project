@@ -13,6 +13,7 @@ body {
 .container {
   background: white;
   border-radius: 4px;
+  min-width: 370px;
 }
 
 .hero {
@@ -37,4 +38,17 @@ p {
 .btn-primary {
   background-color: black;
   border: black;
+}
+
+.card-title {
+  font-family: var(--heading-font-family);
+  font-size: 32px;
+  font-weight: bold;
+}
+
+@media (max-width: 960px) {
+  .card-body {
+    text-align: center;
+  }
+}
 }
