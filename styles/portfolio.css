@@ -29,3 +29,12 @@ h1 {
   font-family: var(--heading-font-family);
   font-size: 96px;
 }
+
+p {
+  line-height: 30px;
+}
+
+.btn-primary {
+  background-color: black;
+  border: black;
+}
