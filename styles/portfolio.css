@@ -5,6 +5,7 @@
 
 body {
   background: black;
+  font-family: "Roboto", sans-serif;
   margin: 50px auto;
 }
 
@@ -19,5 +20,6 @@ body {
 
 h1 {
   color: #F53B9B;
+  font-family: "Playfair Display", serif;
   font-size: 96px;
 }
