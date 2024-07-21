@@ -1,6 +1,7 @@
 :root {
   --sonjacodes-brand-color: #F53B9B;
   --sonjacodes-brand-color-secondary: #D9D9D9;
+  --heading-font-family: "Playfair Display", serif;
 }
 
 body {
@@ -15,11 +16,16 @@ body {
 }
 
 .hero {
+  padding: 120px 20px;
   text-align: center;
 }
 
+.hero h3 {
+  font-weight: normal;
+}
+
 h1 {
-  color: #F53B9B;
-  font-family: "Playfair Display", serif;
+  color: var(--sonjacodes-brand-color);
+  font-family: var(--heading-font-family);
   font-size: 96px;
 }
