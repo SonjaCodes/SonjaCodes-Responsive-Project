@@ -96,10 +96,15 @@ p {
   max-width: 300px;
 }
 
+#mywork-selectors img:hover {
+  transform: scale(1.5);
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 65px;
   }
+
   .card-body {
     text-align: center;
   }
