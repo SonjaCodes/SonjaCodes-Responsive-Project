@@ -96,17 +96,10 @@ p {
   max-width: 300px;
 }
 
-#mywork-selectors .zoom {
-  position: relative;
-  transition: all 0.3s ease-in-out;
-  z-index: 0;
-}
-
-#mywork-selectors .zoom:hover {
-  cursor: copy;
-  position: relative;
-  transform: scale(1.5);
-  z-index: 1;
+.mywork-paragraph {
+  font-size: 18px;
+  padding: 0 50px 20px 50px;
+  text-align: center;
 }
 
 @media (max-width: 960px) {
@@ -116,5 +109,24 @@ p {
 
   .card-body {
     text-align: center;
+  }
+
+  #mywork-selectors .zoom:hover {
+    cursor: copy;
+  }
+}
+
+@media (min-width: 960px) {
+  #mywork-selectors .zoom {
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    z-index: 0;
+  }
+
+  #mywork-selectors .zoom:hover {
+    cursor: copy;
+    position: relative;
+    transform: scale(1.5);
+    z-index: 1;
   }
 }
