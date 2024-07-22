@@ -96,10 +96,22 @@ p {
   max-width: 300px;
 }
 
-.mywork-paragraph {
+.mywork-paragraph,
+.workenquiry-paragraph,
+.contactme-paragraph,
+.contactme-container {
   font-size: 18px;
   padding: 0 50px 20px 50px;
   text-align: center;
+}
+
+.work-enquiry {
+  font-size: 12px;
+}
+
+.work-enquiry a,
+.contactme-container a {
+  color: var(--sonjacodes-brand-color);
 }
 
 @media (max-width: 960px) {
