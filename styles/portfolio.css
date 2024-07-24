@@ -116,6 +116,10 @@ p {
 }
 
 @media (max-width: 960px) {
+  .navbar-toggler {
+    margin-right: 5px;
+  }
+
   h1 {
     font-size: 65px;
   }
