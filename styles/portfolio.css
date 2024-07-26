@@ -100,7 +100,6 @@ p {
   color: var(--sonjacodes-brand-color);
   margin: 0 auto;
   padding: 10px;
-  text-align: center;
   transform: rotate(-180deg);
   writing-mode: tb-rl;
 }
@@ -144,6 +143,7 @@ p {
   }
 
   .rotated {
+    text-align: center;
     transform: rotate(-90deg);
     writing-mode: tb-rl;
   }
