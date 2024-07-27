@@ -141,12 +141,6 @@ p {
   #mywork-selectors .zoom:hover {
     cursor: copy;
   }
-
-  .rotated {
-    text-align: center;
-    transform: rotate(-90deg);
-    writing-mode: tb-rl;
-  }
 }
 
 @media (min-width: 960px) {
@@ -161,5 +155,13 @@ p {
     position: relative;
     transform: scale(1.5);
     z-index: 1;
+  }
+}
+
+@media (max-width: 767px) {
+  .rotated {
+    text-align: center;
+    transform: rotate(-90deg);
+    writing-mode: tb-rl;
   }
 }
