@@ -125,6 +125,16 @@ p {
   padding: 0 30px;
 }
 
+.open-sourced-footer {
+  color: var(--sonjacodes-brand-color-secondary);
+  font-size: 12px;
+  text-align: center;
+}
+
+.open-sourced-footer a {
+  color: var(--sonjacodes-brand-color);
+}
+
 @media (max-width: 960px) {
   .navbar-toggler {
     margin-right: 5px;
